@@ -98,7 +98,7 @@ public class Jogo {
             this.tesourosEncontrados++;
             return 10;
         }else{
-            mp.setVisual(x, y, "A");;
+            mp.setVisual(x, y, "A");
             System.out.println("Essa não! Você cavou uma armadilha ;-;");
             System.out.println("-5 pontos");
             return -5;
@@ -132,7 +132,7 @@ public class Jogo {
         if (tesourosEncontrados == 8) {
             System.out.println("Parabéns, você conseguiu achar os 8 tesouros");
         }else{
-            System.out.println("Parece que suas tentivas acabaram");
+            System.out.println("Parece que suas tentivas acabaram!");
         }
 
         //mostra o mapa final(com todos os lugares escavados(dizendo as respostas para o jogador)
